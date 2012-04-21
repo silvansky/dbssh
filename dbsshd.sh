@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# WARNING! This method is UNSAFE, I strongly recommend not to use it!
+
 VER="0.1"
 DIR=/Users/Valentine/Dropbox/shell_in
 TMP_DIR=/Users/Valentine/.tmp_dbssh
@@ -15,6 +17,7 @@ TIMEOUT=5
 SENDMAIL=false
 
 echo "Starting SSH over Dropbox v$VER daemon with following config:"
+echo "*** WARNING! Do not use this script! It is really UNSAFE! ***"
 echo "  Watch dir:     $DIR"
 echo "  Mask           ${FILE_MASK}"
 echo "  Temporary dir: ${TMP_DIR}"
